@@ -10,7 +10,7 @@ export const Filter = (props) => {
     }
   });
 
-  
+
 let filter = watch('filter');
 
   useEffect(() => {
@@ -25,9 +25,9 @@ let filter = watch('filter');
           <input {...register("filter")} type="text" />
         </form>
       </>
-          
+
     );
-  
+
 }
 
 Filter.propTypes = {
